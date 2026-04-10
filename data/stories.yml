@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: revenue flow
+  steps:
+  - intent: ask_revenue
+  - action: action_total_revenue
+
+- story: profit flow
+  steps:
+  - intent: ask_profit
+  - action: action_profit
+
+- story: expense flow
+  steps:
+  - intent: ask_expense
+  - action: action_expense
+
+- story: employee count flow
+  steps:
+  - intent: employee_count
+  - action: action_employee_count
+
+- story: chart flow
+  steps:
+  - intent: show_chart
+  - action: action_bar_chart

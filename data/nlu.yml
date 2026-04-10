@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - hi bot
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+
+- intent: ask_revenue
+  examples: |
+    - total revenue
+    - sales revenue?
+    - show me revenue
+    - revenue details please
+    - sales?
+
+- intent: ask_profit
+  examples: |
+    - profit
+    - total profit
+    - how much profit made?
+
+- intent: ask_expense
+  examples: |
+    - expense
+    - total expense
+    - show expenses
+
+- intent: employee_count
+  examples: |
+    - employee count
+    - how many employees per department
+    - department wise employees
+
+- intent: revenue_month
+  examples: |
+    - revenue in Jan
+    - sales in February
+    - monthly revenue
+
+- intent: top_city_sales
+  examples: |
+    - top city by sales
+    - best performing city
+
+- intent: show_chart
+  examples: |
+    - show chart
+    - plot sales graph
+    - visualize data
+
+- intent: download_report
+  examples: |
+    - download report
+    - export data
+    - save report

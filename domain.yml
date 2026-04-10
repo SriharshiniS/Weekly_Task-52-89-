@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_revenue
+  - ask_profit
+  - ask_expense
+  - employee_count
+  - revenue_month
+  - top_city_sales
+  - show_chart
+  - download_report
+
+responses:
+  utter_greet:
+    - text: "Hello! I am your Sales Bot 🤖"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day 👋"
+
+actions:
+  - action_total_revenue
+  - action_month_revenue
+  - action_employee_count
+  - action_top_city
+  - action_profit
+  - action_expense
+  - action_bar_chart
+  - action_pie_chart
+  - action_export_excel
+  - action_export_csv
